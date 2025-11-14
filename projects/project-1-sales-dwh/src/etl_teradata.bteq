@@ -1,0 +1,11 @@
+.LOGON HOST_NAME/USER_NAME,PASSWORD;
+
+CREATE TABLE Sales (
+    order_id INTEGER,
+    order_date DATE,
+    customer_id INTEGER,
+    amount DECIMAL(10,2)
+);
+
+.LOGOFF;
+.QUIT;
